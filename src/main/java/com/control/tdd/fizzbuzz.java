@@ -7,7 +7,7 @@ public class fizzbuzz {
         if (input == 3) {
             return "fizz";
         } else if (input == 4) {
-            return "1";
+            return "4";
         } else {
             return String.valueOf(input);
         }
