@@ -19,7 +19,11 @@ public class fizzbuzzTest {
 
     }
 
-
+@Test
+    public void test4() {
+        fizzbuzz fizzbuzz = new fizzbuzz();
+        Assertions.assertEquals("4",fizzbuzz.action(4));
+}
 
 
 
