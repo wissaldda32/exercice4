@@ -8,7 +8,7 @@ public class fizzbuzz {
         } else if (input == 4) {
             return "4";
         } else if (input == 5) {
-            return "5";
+            return "buzz";
         } else {
             return String.valueOf(input);
         }
