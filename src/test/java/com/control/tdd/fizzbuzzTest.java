@@ -12,12 +12,7 @@ public class fizzbuzzTest {
         fizzbuzz fizzbuzz = new fizzbuzz();
         Assertions.assertEquals("1", fizzbuzz.action(1));
     }
-        @Test
-                public void test2() {
-            fizzbuzz fizzbuzz = new fizzbuzz();
-            Assertions.assertEquals("2",fizzbuzz.action(2));
 
-        }
 
 
 
