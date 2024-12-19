@@ -4,7 +4,7 @@ public class fizzbuzz {
 
 
     public String action(int input ) {
-        return "2";
+        return "fizz";
     }
 
 }
