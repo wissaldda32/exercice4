@@ -13,23 +13,22 @@ public class fizzbuzzTest {
         Assertions.assertEquals("1", fizzbuzz.action(1));
     }
     @Test
-    public void test2() {
+    public void test() {
+
+
+
+
         fizzbuzz fizzbuzz = new fizzbuzz();
         Assertions.assertEquals("fizz",fizzbuzz.action(3));
-
-    }
-
-@Test
-    public void test4() {
-        fizzbuzz fizzbuzz = new fizzbuzz();
         Assertions.assertEquals("4",fizzbuzz.action(4));
-}
-@Test
-public void test5() {
-        fizzbuzz fizzbuzz = new fizzbuzz();
-        Assertions.assertEquals("buzz",fizzbuzz.action(5));
-}
 
+
+        Assertions.assertEquals("buzz",fizzbuzz.action(5));
+
+
+        Assertions.assertEquals("fizz",fizzbuzz.action(2*3));
+        Assertions.assertEquals("buzz",fizzbuzz.action(2*5));
+}
     }
 
 
